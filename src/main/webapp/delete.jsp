@@ -7,7 +7,7 @@
 <%
 	request.setCharacterEncoding("UTF-8");
 
-	String no     = request.getParameter("no");
+	String no = request.getParameter("no");
 	String password = request.getParameter("password");
 	
 	GuestbookVo vo = new GuestbookVo();

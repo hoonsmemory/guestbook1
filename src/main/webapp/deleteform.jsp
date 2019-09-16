@@ -8,8 +8,8 @@ String no = request.getParameter("no");
 <title>방명록</title>
 </head>
 <body>
-	<form action="<%=request.getContextPath() %>/delete.jsp" method="post">
-	<input type='hidden' name="no" value="<%= no %>">
+	<form action="<%=request.getContextPath()%>/delete.jsp" method="post">
+	<input type='hidden' name="no" value="<%=no%>">
 	<table>
 		<tr>
 			<td>비밀번호</td>
